@@ -1,0 +1,32 @@
+body {
+  background-image:url('../images/Image.png');
+  background-color: #2F1893;
+  font-family: 'DM Sans';
+}
+
+h1, p, h2 {
+  color: white;
+}
+
+.createButton {
+  color: white;
+  background-color: #482BE7;
+  padding: 15px;
+  border-radius: 20rem;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-inline: 10px;
+  color: white;
+}
