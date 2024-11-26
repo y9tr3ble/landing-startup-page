@@ -18,7 +18,8 @@ h1, p, h2 {
 .Startup__Button {
   color: white;
   background-color: #482BE7;
-  padding: 15px;
+  padding: 20px;
+  padding-inline: 30px;
   border-radius: 20rem;
   border: none;
   margin-top: 50px;
