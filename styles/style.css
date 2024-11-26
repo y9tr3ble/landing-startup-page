@@ -2,6 +2,8 @@ body {
   background-image:url('../images/Image.png');
   background-color: #2F1893;
   font-family: 'DM Sans';
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1, p, h2 {
@@ -86,4 +88,21 @@ li {
 .dot.active {
     background-color: white;
     border: 2px solid white;
+}
+
+@media (max-width: 950px) {
+  .Startup__Description {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  li {
+    padding-inline: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Startup__Name {
+    font-size: 48px;
+  }
 }
