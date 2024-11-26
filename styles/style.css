@@ -61,11 +61,12 @@ li {
 
 .Startup__Description {
   width: 850px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .Startup__Description h2 {
   text-align: center;
+  font-weight: normal;
 }
 
 .dots-container {
