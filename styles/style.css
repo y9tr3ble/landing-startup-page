@@ -8,17 +8,19 @@ h1, p, h2 {
   color: white;
 }
 
-.createButton {
+.Startup__Button {
   color: white;
   background-color: #482BE7;
   padding: 15px;
   border-radius: 20rem;
   border: none;
+  margin-top: 50px;
 }
 
 header {
   display: flex;
   justify-content: center;
+  margin: 80px;
 }
 
 ul {
@@ -27,6 +29,60 @@ ul {
 
 li {
   list-style: none;
-  padding-inline: 10px;
+  padding-inline: 35px;
   color: white;
+  font-size: 18px;
+}
+
+.is-active {
+  opacity: 40%;
+}
+
+.Startup__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Startup__Number, .Startup__Name, .Startup__Description {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.Startup__Number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Startup__Name {
+  font-size: 72px;
+}
+
+.Startup__Description {
+  width: 850px;
+  font-weight: normal;
+}
+
+.Startup__Description h2 {
+  text-align: center;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.dot.active {
+    background-color: white;
+    border: 2px solid white;
 }
