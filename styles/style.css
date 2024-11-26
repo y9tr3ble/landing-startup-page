@@ -134,6 +134,17 @@ li {
   li {
     padding-inline: 20px;
   }
+
+  .nav-arrow {
+    margin-inline: 50px;
+    top: 30%;
+  }
+}
+
+@media (max-width: 870px) {
+  .nav-arrow {
+    display: none;
+  }
 }
 
 @media (max-width: 630px) {
@@ -143,18 +154,5 @@ li {
 
   li {
     padding-inline: 10px;
-  }
-
-  .nav-arrow {
-    padding: 10px;
-    font-size: 20px;
-  }
-
-  .nav-arrow-left {
-    left: 5px;
-  }
-
-  .nav-arrow-right {
-    right: 5px;
   }
 }
