@@ -164,6 +164,92 @@ li {
   opacity: 70%;
 }
 
+.Startup__Footer {
+  background-color: #341B87;
+  padding: 20px 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.Startup__Footer__Contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.Startup__Footer__Name p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.Contacts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Contacts a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.Contacts a:hover {
+  text-decoration: underline;
+}
+
+.social-container {
+  display: flex;
+  gap: 28px;
+  margin-left: 20px;
+}
+
+.social-icon {
+  fill: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
 @media (max-width: 950px) {
 	.Startup__Description {
 		width: 90%;
